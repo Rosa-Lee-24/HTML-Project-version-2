@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Chocolate Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script defer src="index.js"></script>
+   
+</head>
+<body>
+
+   <header>
+    <h1>Vegan Chocolate Shop</h1>
+    <div class="cart">
+        <a href="Cart_Page.html">
+            <i class="bi bi-cart"></i>
+            <span class="cartAmount">0</span>
+        </a>
+    </div>
+</header>
+
+    <nav>
+        <a href="/Index.html">Home</a>
+        <a href="/About_Us.html">About</a>
+        <a href="/Gallery.html">Gallery</a>
+        <a href="/Blogs_for_Vegans.html">Blogs</a>
+        <a href="/Contact_Us.html">Contact</a>
+        
+    </nav>
+    <main>
+        <div class="shop">
+            <div class="product">
+                <img src="Shop Images/Dark Chocolate.jpg" alt="Dark Chocolate">
+                <h3>Dark Chocolate</h3>
+                <p class="price">$5.00</p>
+                <p class="desc">Rich and smooth dark chocolate for true lovers.</p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <span class="count">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Shop Images/Almond Chocolate.jpg" alt="Almond Crunch">
+                <h3>Almond Crunch</h3>
+                <p class="price">$6.00</p>
+                <p class="desc">Crunchy roasted almonds covered in smooth chocolate.</p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <span class="count">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Shop Images/Mint Vegan Macaron.jpg" alt="Mint Delight">
+                <h3>Mint Delight</h3>
+                <p class="price">$5.00</p>
+                <p class="desc">Refreshing mint paired with decadent chocolate.</p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <span class="count">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Shop Images/Hazelnut Vegan Chocolate.jpg" alt="Hazelnut Truffle">
+                <h3>Hazelnut Truffle</h3>
+                <p class="price">$7.00</p>
+                <p class="desc">Delicate hazelnut filling in smooth chocolate.</p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <span class="count">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+
+            <div class="product"> 
+                <img src="Shop Images/Coconut Vegan Chocolate.jpg" alt="Coconut Bliss">
+                <h3>Coconut Bliss</h3>
+                <p class="price">$6.00</p>
+                <p class="desc">Tropical coconut and creamy chocolate blend.</p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <span class="count">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Shop Images/Caramel Vegan Chocolate.jpg" alt="Caramel Swirl">
+                <h3>Caramel Swirl</h3>
+                <p class="price">$5.00</p>
+                <p class="desc">Smooth caramel with rich chocolate coating.</p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <span class="count">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Shop Images/Berry Vegan Chocolate.jpg" alt="Berry Burst">
+                <h3>Berry Burst</h3>
+                <p class="price">$6.00</p>
+                <p class="desc">A mix of berries with a chocolate finish.</p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <span class="count">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Shop Images/Mint table chocolate.png" alt="Mint Chocolate">
+                <h3>Mint Chocolate</h3>
+                <p class="price">$5.00</p>
+                <p class="desc">Refreshing mint paired with soft succulent chocolate.</p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <span class="count">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Shop Images/Orange Chocolate.jpg" alt="Orange Zest">
+                <h3>Orange Zest</h3>
+                <p class="price">$5.00</p>
+                <p class="desc">Zesty orange meets luxurious dark chocolate.</p>
+                <div class="quantity">
+                    <button class="decrease">-</button>
+                    <span class="count">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+<div id="chatbot-container">
+    <button id="chatbot-button">💬</button>
+    <div id="chatbot">
+        <div id="chatbot-header">
+            <span>Chat with us!</span>
+            <button id="close-chatbot">✖</button>
+        </div>
+        <div id="chatbot-messages"></div>
+        <div id="chatbot-input-container">
+            <input type="text" id="chatbot-input" placeholder="Ask about our vegan chocolates...">
+            <button id="chatbot-send">Send</button>
+        </div>
+    </div>
+</div>
+
+<div class="testimonials-container">
+    <!-- Heading placed on top of the testimonials -->
+    <h2>What Our Customers Say</h2>
+
+    <!-- Scrollable testimonials section -->
+    <div class="testimonials">
+      <div class="testimonial-item">"My kids love these chocolates! Finally, a guilt-free treat!" - Sarah</div>
+      <div class="testimonial-item">"Absolutely delicious and ethical. Win-win!" - James</div>
+      <div class="testimonial-item">"This vegan chocolate is absolutely amazing! I can't get enough of it!"</div>
+      <div class="testimonial-item">"I love the rich flavour and smooth texture. It's the best vegan chocolate I've ever had"</div>
+      <div class="testimonial-item">"I can’t believe how good it tastes. My new favorite treat!" - Lisa</div>
+      <div class="testimonial-item">"It’s great to enjoy chocolate that’s healthy and cruelty-free!" - John</div>
+      <div class="testimonial-item">"Love the texture! Finally, a chocolate that fits my lifestyle." - Emily</div>
+      <div class="testimonial-item">"Best chocolate I’ve ever had, and it’s vegan!" - Mike</div>
+    </div>
+  </div>
+
+<footer>
+    <p>&copy; 2025 Vegan Chocolate Co. | <a href="sitemap.html">Site Map</a></p>
+</footer>
+
+</body>
+</html>
+
+
+</html>

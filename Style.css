@@ -1,0 +1,734 @@
+body { font-family: Arial, sans-serif;
+       margin: 0; 
+       padding: 0; }
+
+header{ 
+  background: #6B4226;
+  color: white; 
+  text-align: center; 
+  padding: 10px 0; }
+  
+  header h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p { 
+    background: #6B4226;
+    color: white;
+    text-align: center; 
+    padding: 10px 0; }
+  
+  
+  footer a {
+      color: white;
+      text-decoration: none; /* Removes underline */
+  }
+  
+  footer a:hover {
+      text-decoration: underline; /* Underline on hover */
+  }
+   
+    .testimonials-container h2 {
+      text-align: center;
+  }
+
+/* Navigation bar styling starts*/
+nav { background: #A67B5B; 
+      padding: 10px; 
+      text-align: center; 
+    }
+
+nav a { color: white; 
+  margin: 0 15px; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+/* Navigation bar styling ends*/
+
+img {
+  width: 80%; /* Adjust the percentage as needed */
+  max-width: 1200px; /* Prevents it from getting too big on large screens */
+  height: auto;
+  display: block;
+  margin: 20px auto; /* Centers the image */
+}
+
+/*Testimonials section styling starts*/
+
+.testimonials-container {
+  max-width: 100%;
+  overflow: hidden;            /* Hide anything that overflows horizontally */
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Heading style */
+.testimonials h2 {
+  text-align: center;         /* Center the heading */
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+}
+
+/* Horizontal testimonials container */
+.testimonials {
+  display: flex;              /* Flexbox for horizontal alignment */
+  overflow-x: scroll;         /* Enable horizontal scrolling */
+  scroll-behavior: smooth;    /* Smooth scroll behavior */
+  padding: 10px 0;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+/* Individual testimonial item style */
+.testimonial-item {
+  flex-shrink: 0;              /* Prevent shrinking of individual items */
+  min-width: 350px;            /* Ensure each testimonial is wide enough */
+  margin-right: 40px;          /* Add space between each testimonial */
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*Testimonials section styling ends*/
+
+/*Gallery Page*/
+
+.gallery { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; }
+
+
+.gallery img { 
+  width: 100%; 
+  border-radius: 5px; }
+
+.blog-preview { 
+  border-bottom: 1px solid #ddd; 
+  padding: 15px 0; }
+
+.blog-preview button { 
+  background: #6B4226; 
+  color: white; 
+  border: none; 
+  padding: 5px 10px; 
+  cursor: pointer; }
+
+  /* Form for contact page styling starts*/
+
+form input, form textarea { 
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+}
+
+form button { 
+  background: #6B4226; 
+  color: white;
+  padding: 10px; 
+  border: none; 
+  cursor: pointer;
+ }
+
+/* Form for contact page  ends*/
+
+
+ /*shoppig cart starts **/
+ .navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #212529;
+  color: white;
+  padding: 25px 60px;
+  margin-bottom: 30px;
+}
+
+.cart{
+  position: relative;
+  background-color: #fff;
+  color:#212529;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.cartAmount {
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+/*shoppig cart ends **/
+
+/* Gallery div container ends*/
+
+
+.container {
+   width: 80%; 
+   margin: auto; 
+   padding: 20px;
+   }
+
+.image-box { 
+  float: left; 
+  width: 30%; 
+  margin-right: 20px; 
+}
+
+.image-box img { 
+  width: 100%; 
+  border-radius: 5px;
+ }
+
+.text-content { 
+text-align: justify; 
+}
+
+.container {
+  width: 80%; 
+  margin: auto; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+.gallery { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  margin-top: 20px; 
+}
+
+.gallery img { 
+  width: 100%; 
+  border-radius: 5px;
+
+}
+
+/* Gallery div container ends*/
+
+.container { 
+ width: 80%; 
+ margin: auto; 
+ padding: 20px; 
+}
+
+/* Blog style starts */
+
+.blog { 
+  border-bottom: 1px solid #ddd; 
+  padding: 20px 0; 
+  display: flex; 
+  align-items: center; 
+}
+
+.blog img { 
+  width: 150px; 
+  height: auto; 
+  margin-right: 20px; 
+  border-radius: 5px; 
+}
+
+.blog-content { 
+  flex: 1; 
+}
+
+.blog button { 
+  background: #6B4226; 
+  color: white; 
+  border: none; 
+  padding: 5px 10px; 
+  cursor: pointer; 
+}
+    
+
+/* Blog styling ends  */
+
+.container { 
+  width: 50%; 
+  margin: auto; padding: 20px; 
+  text-align: center; 
+}
+
+form { 
+  background: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea { 
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+
+button { 
+  background: #6B4226; 
+  color: white; 
+  border: none; 
+  padding: 10px 15px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+}
+    
+div {
+  max-width: 800px; /* Limits the width to prevent overly long lines */
+  margin: 20px auto; /* Centers the div and adds spacing from edges */
+  padding: 20px; /* Adds spacing inside the div */
+  background-color: #f8f8f8; /* Light background for readability */
+  border-radius: 10px; /* Rounds the corners */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+}
+
+
+p {
+   line-height: 1.6; /* Improves readability */
+   font-size: 16px; /* Sets a comfortable font size */
+   color: #333; /* Dark gray text for better contrast */
+}
+
+
+/*Chatbox* styling starts*/ 
+
+    
+#chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+    
+#chatbot-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+    
+#chatbot {
+  display: none;
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+    
+#chatbot-header {
+  background:#A67B5B;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+    
+#chatbot-messages {
+  height: 250px;
+  padding: 10px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+}
+    
+#chatbot-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+/*Chatbox* styling starts*/ 
+
+
+/* Toggle features*/
+.dark-mode-toggle {
+  position: relative; /* Fix the button inside the header */
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background: #A67B5B;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.dark-mode {
+    background: #222;  /* Dark background */
+    color: #222;  /* Light text for contrast */
+}
+
+/* Ensure all text elements are visible in dark mode */
+.dark-mode a {
+    color: #0c0b04; /* Gold links for visibility */
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background: #333; /* Darker header/footer for contrast */
+    color: #fff;
+}
+
+.dark-mode button {
+    background: #555; /* Darker button background */
+    color: #fff;
+    border: 1px solid #888;
+}
+
+/* Chatbot & Other UI Elements */
+.dark-mode #chatbot {
+    background: #333;
+    color: white;
+}
+
+.dark-mode #promo-banner {
+    background: #444;
+    color: #FFD700;
+}
+
+
+#promo-banner {
+  display: block;
+  text-align: center;
+  margin: 20px auto; /* Adds spacing below the image */
+  background:#6B4226;/* brown background */
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: fit-content; /* Adjusts width to fit text */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: #6B4226;}
+  to {background-color:#d39f61}
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the video */
+  width: 100%;
+}
+
+video {
+  max-width: 100%; /* Ensures the video is responsive */
+  height: auto;
+}
+
+/*Shop page*/
+
+
+
+#chatbot {
+  display: none;
+  width: 300px;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  display: flex;
+  flex-direction: column;
+}
+
+#chatbot-header {
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#chatbot-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#chatbot-input-container {
+  display: flex;
+  padding: 10px;
+}
+
+#chatbot-input {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+#chatbot-send {
+  padding: 5px 10px;
+  background: #6B4226;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#chatbot-button {
+  background:#6B4226;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#close-chatbot {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/*Shop Webpage */
+/* Reset some default styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #A67B5B;
+  color: white;
+  padding: 15px 30px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cart i {
+  margin-right: 8px;
+}
+
+/* Shop Grid Layout */
+.shop {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(3, auto); /* 3 rows */
+  gap: 20px; /* Space between grid items */
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Product Card Styling */
+.product {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+/* Product Image */
+.product img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Product Name */
+h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+/* Price and Description */
+.price {
+  font-weight: bold;
+  color: #A67B5B;
+  margin: 5px 0;
+}
+
+.desc {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Quantity Buttons */
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: none;
+  background: #A67B5B;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #8c6349;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+  .shop {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .shop {
+      grid-template-columns: 1fr; /* 1 column for mobile */
+  }
+}
+.thank-you-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+
+/* Cart_Page */
+#cart-container {
+  background-color: white;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart Items */
+#cart-items {
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Cart Actions */
+#cart-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+#clear-cart,
+#checkout-btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#checkout-btn {
+  background-color: #5cb85c;
+}
+
+#clear-cart:hover {
+  background-color: #c9302c;
+}
+
+#checkout-btn:hover {
+  background-color: #4cae4c;
+}
+
+/* Empty Cart Message */
+#empty-cart-message {
+  display: none;
+  margin-top: 20px;
+}
+
+.continue-shopping {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.continue-shopping:hover {
+  text-decoration: underline;
+}
+
+
+/* Newsletter Popup Styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.popup-content input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.popup-content button {
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-content button:hover {
+  background: #45a049;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
