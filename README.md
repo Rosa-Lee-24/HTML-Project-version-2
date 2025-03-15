@@ -19,10 +19,10 @@ Additonal pages are added to share more information and improve user interaction
 
 This website is more than just a static page—it's an **interactive experience!**  
 
-✅ **Live Chat Box** – Visitors can ask questions and get information about vegan chocolate in real-time.  
-✅ **Shop Page with Cart** – Users can browse delicious vegan chocolates and add them to their shopping cart.  
-✅ **Contact Form** – Captures customer details and inquiries efficiently.  
-✅ **Engaging Blog Section** – Features educational and engaging posts about vegan chocolate.  
+**Live Chat Box** – Visitors can ask questions and get information about vegan chocolate in real-time.  
+**Shop Page with Cart** – Users can browse delicious vegan chocolates and add them to their shopping cart.  
+**Contact Form** – Captures customer details and inquiries efficiently.  
+**Engaging Blog Section** – Features educational and engaging posts about vegan chocolate.  
 
 This project represents the **foundation of my software development journey**, and I’m excited to keep building and improving! 🚀  
 
